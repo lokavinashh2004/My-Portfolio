@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+html { scroll-behavior: smooth; }
 
 .hero::before {
     position: absolute;
@@ -18,7 +19,7 @@
     @apply after:absolute after:bottom-0 after:left-0 after:w-3/4 after:h-3/4 after:bg-red-500 after:-ml-36 after:-mb-12;
 }
 
-.hero-image::after, .hero::before {
+.hero-image::after, .hero::before, .projects::after, .projects::before {
     background: linear-gradient(
 		260deg,
 		#8750f7 0%,
@@ -27,4 +28,12 @@
     filter: blur(150px);
     pointer-events: none;
     user-select: none;
+}
+
+.projects::after {
+    background: linear-gradient(260deg, #3d2070 0%, rgba(115, 67, 210, 0) 100%);
+}
+
+.projects::before {
+    background: linear-gradient(260deg, #013668 0%, rgba(115, 67, 210, 0) 100%);
 }

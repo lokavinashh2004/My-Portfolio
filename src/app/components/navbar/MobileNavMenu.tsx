@@ -24,7 +24,7 @@ const MobileNavMenu = () => {
 
       {open && (
         <aside className="top-[128px] left-0 z-20 fixed flex flex-col lg:hidden bg-[#130b23] w-screen h-[calc(100dvh-128px)]">
-          <ul className="flex flex-col gap-4 px-10 py-6">
+          <ul className="flex flex-col gap-4 px-8 py-6">
             {NAVLINKS.map((link) => (
               <li
                 key={link}

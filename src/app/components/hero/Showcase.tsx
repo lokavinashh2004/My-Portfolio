@@ -27,7 +27,7 @@ const SocialIcons = () => {
         <a
           key={i}
           href={Item.link}
-          className="relative before:absolute before:inset-0 border-[#aa82faa6] before:bg-cyan-500 p-4 border rounded-full before:rounded-full before:w-full before:h-full before:transition-all before:duration-300 group before:scale-0 hover:before:scale-100"
+          className="relative before:absolute before:inset-0 border-[#aa82faa6] before:bg-cyan-500 p-4 border rounded-full before:rounded-full before:w-full before:h-full before:duration-300 group before:scale-0 before:transition-all hover:before:scale-100"
           target="_blank"
         >
           <Item.icon className="group-hover:text-white relative w-5 h-5 text-cyan-200" />
@@ -41,7 +41,7 @@ const Showcase = () => {
   return (
     <Container
       as="div"
-      className="flex lg:flex-row flex-col lg:items-center gap-8 px-10 lg:px-10 py-10 w-full"
+      className="flex lg:flex-row flex-col lg:items-center gap-8 px-6 lg:px-10 py-10 pb-[8rem] w-full select-none"
     >
       <div className="flex flex-col gap-4 w-full lg:w-1/2 hero-text">
         <h2 className="w-full font-bold text-2xl text-white sm:text-3xl transition-all duration-200">
@@ -84,7 +84,7 @@ const Showcase = () => {
             alt="hero-avatar"
             height={300}
             width={300}
-            className="relative z-10 border-4 border-cyan-500 hover:border-blue-600 border-opacity-75 hover:border-opacity-100 rounded-[32px] w-full transition-all duration-200 select-none hero-avatar hover:rotate-[2deg] rotate-[7deg] hover:scale-95"
+            className="relative z-10 border-4 border-cyan-500 hover:border-blue-600 border-opacity-75 hover:border-opacity-100 rounded-[32px] w-full transition-all duration-200 select-none hero-avatar rotate-[7deg] hover:rotate-[2deg] hover:scale-95"
             priority
           />
         </div>

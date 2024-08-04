@@ -4,8 +4,8 @@ import MobileNavMenu from "./MobileNavMenu";
 
 const Navbar = () => {
   return (
-    <Container as="header">
-      <nav className="flex justify-between items-center gap-3 bg-[linear-gradient(45deg,#160522,#141414)] lg:bg-none px-10 md:px-10 py-10 w-full transition-all duration-200">
+    <Container as="header" className="">
+      <nav className="flex justify-between items-center gap-3 bg-[linear-gradient(45deg,#160522,#141414)] lg:bg-none px-8 md:px-10 py-10 w-full transition-all duration-200">
         <div className="flex items-center gap-8 xl:basis-1/2">
           <h1 className="font-bold text-5xl text-white">V</h1>
           <span className="md:inline-flex hidden bg-red font-medium text-me text-white text-xs hover:text-cyan-300 transition-colors cursor-pointer">
