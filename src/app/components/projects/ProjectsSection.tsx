@@ -4,7 +4,7 @@ import Container from "../ui/Container";
 import ProjectList from "./ProjectList";
 import { BiLinkExternal } from "react-icons/bi";
 
-const data = {
+const meta = {
   title: "Recent Projects",
   subtitle:
     "I enjoy building side projects and constantly challenge myself apart from my actual work :)",
@@ -25,9 +25,9 @@ const ProjectsSection = () => {
             as="h4"
             className="bg-gradient-to-r from-[#8750f7_0%] to-[#ffffff_100%] mx-auto font-bold text-2xl sm:text-2xl md:text-4xl md:[line-height:1.2]"
           >
-            {data.title}
+            {meta.title}
           </GradientText>
-          <p className="text-white">{data.subtitle}</p>
+          <p className="text-white">{meta.subtitle}</p>
         </div>
         <ProjectList />
         <a
