@@ -10,6 +10,8 @@ const data = [
 
       "Built an advanced semantic search AI chat where medical writers can ask questions from multiple records. Implemented features including chat, follow-up, response regeneration, streaming response, adding contents along with citation info of the articles with a single click, and navigating to the correct page number of pdf or article from which the response is derived.",
 
+      "Built an Admin Panel entirely from scratch using Next JS 14, featuring sophisticated dashboards, visualizations, and role-based access control for managing different entities. This development significantly enhanced oversight and streamlined administrative tasks.",
+
       "Contributed to the development of a rich text editor with SlateJS, implementing features like live sync of editor in multiple tabs, text formatting and font modifications similar to MS Word.",
       `Built and published a UI component library (npm package) with highly scalable and accessible components (data
 tables, charts, searchable dropdowns, etc.) using Rollup.js, Storybook, Jest... ensuring design consistency across multiple products in MAIA suite, and reduced the UI development time in our products.            `,
