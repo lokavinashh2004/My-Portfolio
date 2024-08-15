@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 import { Sora } from "next/font/google";
 import "./globals.css";
 
@@ -28,7 +29,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${SORA.className} antialiased scroll-smooth`}>{children}</body>
+      <body className={`${SORA.className} antialiased scroll-smooth`}>{children}
+      <Analytics />
+
+      </body>
     </html>
   );
 }
