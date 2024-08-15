@@ -10,11 +10,11 @@ interface ProjectCardProps {
 const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
     <div
-      tabIndex={1}
+      tabIndex={0}
       className="relative before:z-10 before:absolute before:-inset-0 flex before:bg-gradient-to-br before:from-red-800 before:to-purple-500 before:opacity-0 hover:before:opacity-100 focus:focus-within:focus-visible:before:opacity-100 before:blur-[5px] before:rounded-xl w-full before:w-full before:h-full before:transition-all before:animate-none before:duration-500 focus:focus-within:focus-visible:outline-none"
     >
-      <div className="z-20 flex lg:flex-row flex-col border-[#2a1454] bg-darkBlue shadow-[#04030b] shadow-2xl p-4 md:p-6 lg:p-8 border rounded-xl w-full min-h-72">
-        <article className="flex flex-col gap-3 w-full lg:w-[40%] select-none">
+      <div className="z-20 flex lg:flex-row flex-col lg:gap-3 border-[#2a1454] bg-darkBlue shadow-[#04030b] shadow-2xl p-4 md:p-6 lg:p-8 border rounded-xl w-full min-h-72">
+        <article className="flex flex-col gap-3 w-full lg:w-[40%] select-none sm:select-auto">
           <span className="hover:opacity-85 font-light text-[#8750f7] text-md">
             {project.category}
           </span>

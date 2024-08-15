@@ -15,6 +15,7 @@ const projects: Project[] = [
   limited time message updating and so much more...`,
       points: [
         "High quality file sharing",
+        "Real time read-receipts",
         "AI assistant",
         "Install as PWA in any device - Fully responsive",
       ],

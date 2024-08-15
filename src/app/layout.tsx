@@ -7,11 +7,11 @@ const SORA  = Sora({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Varadarajan M | Full Stack Software Engineer",
   description: "I am Varadarajan, a Full Stack Software Engineer specializing in crafting high-performance web applications with React, Next.js, Express, and MongoDB. I deliver exceptional user experiences.",
-  keywords: ["Varadarajan", "full stack developer", "React", "Next.js", "Express", "MongoDB", "web development", "web applications", "user experience"],
+  keywords: ["Varadarajan", "portfolio", "Varadarajan M Portfolio", "Varadarajan portfolio", "frontend engineer" , "full stack developer", "React", "Next.js", "Express", "MongoDB", "web development", "web applications", "user experience"],
   openGraph: {
     title: "Varadarajan M | Portfolio",
     description: "I am Varadarajan, a Full Stack Software Engineer specializing in crafting high-performance web applications with React, Next.js, Express, and MongoDB. I deliver exceptional user experiences.",
-    url: "https://yourwebsite.com", 
+    url: "https://varadarajan-m.vercel.app", 
     // images:['@/public/avatar.png'],
   },
   twitter: {

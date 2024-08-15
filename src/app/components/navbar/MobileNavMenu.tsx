@@ -28,7 +28,7 @@ const MobileNavMenu = () => {
             {NAVLINKS.map((link) => (
               <li
                 key={link}
-                className="after:block inline-block after:bg-white after:bg-opacity-50 after:-mt-1 w-max after:w-full after:h-2 font-semibold text-[25px] text-white sm:text-3xl hover:text-cyan-300 after:[transform-origin:left] transition-colors after:transition-transform after:duration-200 cursor-pointer select-none after:scale-x-0 hover:after:scale-x-100"
+                className="after:block inline-block after:bg-white after:bg-opacity-50 after:-mt-1 w-max after:w-full after:h-2 font-semibold text-[25px] text-white sm:text-3xl hover:text-cyan-300 after:[transform-origin:left] transition-colors after:transition-transform after:duration-200 cursor-pointer select-none sm:select-auto after:scale-x-0 hover:after:scale-x-100"
               >
                 {link}
               </li>

@@ -19,7 +19,7 @@ html { scroll-behavior: smooth; }
     @apply after:absolute after:bottom-0 after:left-0 after:w-3/4 after:h-3/4 after:bg-red-500 after:-ml-36 after:-mb-12;
 }
 
-.hero-image::after, .hero::before, .projects::after, .projects::before, .experience::after, .experience::before {
+.hero-image::after, .hero::before, .projects::after, .projects::before, .experience::after, .experience::before, .skills::after, .skills::before {
     background: linear-gradient(
 		260deg,
 		#8750f7 0%,
@@ -30,12 +30,20 @@ html { scroll-behavior: smooth; }
     user-select: none;
 }
 
-.projects::after {
+.projects::after{
     background: linear-gradient(260deg, #3d2070 0%, rgba(115, 67, 210, 0) 100%);
 }
 
-.projects::before {
+.projects::before{
     background: linear-gradient(260deg, #013668 0%, rgba(115, 67, 210, 0) 100%);
+}
+
+.skills::after {
+    background: linear-gradient(260deg, #1e3368 0%, rgba(115, 67, 210, 0) 100%)
+}
+
+.skills::before {
+    background: linear-gradient(260deg, #101b37 0%, rgba(115, 67, 210, 0) 100%);
 }
 
 .experience::after {

@@ -41,7 +41,7 @@ const Showcase = () => {
   return (
     <Container
       as="div"
-      className="flex lg:flex-row flex-col lg:items-center gap-8 px-6 lg:px-10 py-10 pb-[8rem] w-full select-none"
+      className="flex lg:flex-row flex-col lg:items-center gap-8 px-6 lg:px-10 py-10 pb-[8rem] w-full select-none sm:select-auto"
     >
       <div className="flex flex-col gap-4 w-full lg:w-1/2 hero-text">
         <h2 className="w-full font-bold text-2xl text-white sm:text-3xl transition-all duration-200">
