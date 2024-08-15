@@ -10,14 +10,18 @@ const SocialIcons = () => {
     {
       icon: FaLinkedin,
       link: "https://www.linkedin.com/in/varadarajan-m-724512164/",
+      label: "Go to Varadarajan's LinkedIn Profile"
     },
     {
       icon: FaInstagram,
       link: "https://www.instagram.com/vk_.31/",
+      label: "Go to Varadarajan's Instagram Profile"
+
     },
     {
       icon: FaGithub,
       link: "https://github.com/Varadarajan-M",
+      label: "Go to Varadarajan's GitHub Profile"
     },
   ];
 
@@ -27,6 +31,7 @@ const SocialIcons = () => {
         <a
           key={i}
           href={Item.link}
+          aria-label={Item.label}
           className="relative before:absolute before:inset-0 border-[#aa82faa6] before:bg-cyan-500 p-4 border rounded-full before:rounded-full before:w-full before:h-full before:duration-300 group before:scale-0 before:transition-all hover:before:scale-100"
           target="_blank"
         >
@@ -58,7 +63,7 @@ const Showcase = () => {
           <Image
             src={HeroImage}
             alt="hero-avatar"
-            className="relative z-10 border-4 border-cyan-500 hover:border-blue-600 border-opacity-75 hover:border-opacity-100 rounded-[20px] w-full transition-all duration-200 select-none hero-avatar rotate-[4deg] hover:rotate-[2deg] hover:scale-95"
+            className="relative z-10 border-[#1e3773bf] border-2 hover:border-blue-600 border-opacity-75 hover:border-opacity-100 rounded-[20px] w-full transition-all duration-200 select-none hero-avatar rotate-[4deg] hover:rotate-[2deg] hover:scale-95"
             priority
           />
         </div>
@@ -84,7 +89,7 @@ const Showcase = () => {
             alt="hero-avatar"
             height={300}
             width={300}
-            className="relative z-10 border-4 border-cyan-500 hover:border-blue-600 border-opacity-75 hover:border-opacity-100 rounded-[32px] w-full transition-all duration-200 select-none hero-avatar rotate-[7deg] hover:rotate-[2deg] hover:scale-95"
+            className="relative z-10 border-[#1e3773bf] border-2 hover:border-blue-600 border-opacity-75 hover:border-opacity-100 rounded-[32px] w-full transition-all duration-200 select-none hero-avatar rotate-[7deg] hover:rotate-[2deg] hover:scale-95"
             priority
           />
         </div>

@@ -10,9 +10,9 @@ type SectionHeaderProps = {
 
 const SectionHeader = ({meta}:SectionHeaderProps) => {
   return (
-    <div className="flex flex-col items-center gap-3 text-center">
+    <div className="flex flex-col items-center gap-3 text-center select-none sm:select-text">
           <GradientText
-            as="h4"
+            as="h2"
             className="bg-gradient-to-r from-[#8750f7_0%] to-[#ffffff_100%] mx-auto font-bold text-2xl sm:text-2xl md:text-4xl md:[line-height:1.2]"
           >
             {meta.title}

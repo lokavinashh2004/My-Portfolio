@@ -1,4 +1,4 @@
-const NAVLINKS = ["Projects", "Experience", "Skills", "Contact"];
+const NAVLINKS = ["Projects", "Experience", "Skills"];
 
 const DesktopNavMenu = () => (
   <ul className="lg:flex items-center gap-12 hidden">
