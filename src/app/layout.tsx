@@ -10,14 +10,14 @@ export const metadata: Metadata = {
   description: "Hey, I'm Varadarajan M, a skilled full-stack software engineer specializing in crafting high-performance applications with React, Next.js, and Node.js. With a strong foundation in software engineering, I deliver robust, scalable solutions tailored to your needs. Contact me for your next project!",
   keywords: ["full stack developer", "web developer", "software engineer", "React developer", "Next.js developer", "Node.js developer", "web development", "application development", "software solutions", "Varadarajan M", "portfolio", "hire software engineer", "hire full stack developer"],
   openGraph: {
-    title: "Varadarajan M - Full Stack Web Developer | Expert Software Engineer",
+    title: "Varadarajan M - Full Stack Engineer | Crafting Delighful User Experiences",
     description: "Hey, I'm Varadarajan M, a skilled full-stack software engineer specializing in crafting high-performance applications with React, Next.js, and Node.js. With a strong foundation in software engineering, I deliver robust, scalable solutions tailored to your needs. Contact me for your next project!",
     url: "https://varadarajan-m.vercel.app",
     // images: ['@/public/avatar.png'], // Replace with the actual image path
   },
   twitter: {
     card: "summary_large_image",
-    title: "Varadarajan M - Full Stack Web Developer | Expert Software Engineer",
+    title: "Varadarajan M - Full Stack Engineer | Crafting Delighful User Experiences",
     description: "Hey, I'm Varadarajan M, a skilled full-stack software engineer specializing in crafting high-performance applications with React, Next.js, and Node.js. With a strong foundation in software engineering, I deliver robust, scalable solutions tailored to your needs. Contact me for your next project!",
     //  images: ['@/public/avatar.png'], // Replace with the actual image path
   },
