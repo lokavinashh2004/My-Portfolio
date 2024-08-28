@@ -4,6 +4,9 @@
 
 html { scroll-behavior: smooth; }
 
+
+
+
 .hero::before {
     position: absolute;
     content: '';
@@ -53,3 +56,16 @@ html { scroll-behavior: smooth; }
 .experience::before {
     background: linear-gradient(260deg, #080721 0%, #7343d236 100%) 
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #121212; 
+}
+::-webkit-scrollbar-thumb {
+    background-color: #333; 
+    border-radius: 5px;
+  }
+  
+::-webkit-scrollbar-track {
+    background-color: #121212; 
+  }
