@@ -24,7 +24,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
 
           <Image
             src={project.image}
-            alt={project.name}
+            alt={`${project.name} project showcase`}
             className="inline lg:hidden my-6 rounded-lg w-full h-full object-contain"
           />
 
@@ -75,7 +75,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
         <div className="lg:block hidden bg-black px-4 lg:px-6 py-4 rounded-lg lg:w-[60%]">
           <Image
             src={project.image}
-            alt={project.name}
+            alt={`${project.name} project showcase`}
             className="rounded-lg w-full h-full object-cover"
           />
         </div>

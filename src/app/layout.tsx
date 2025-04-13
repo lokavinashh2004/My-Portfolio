@@ -8,9 +8,9 @@ const SORA = Sora({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title:
-    "Varadarajan M - Full Stack Engineer | Crafting Delighful User Experiences",
+    "Varadarajan M | Building High-Performance Web Experiences",
   description:
-    "Hey, I'm Varadarajan M, a skilled full-stack software engineer specializing in crafting high-performance applications with React, Next.js, and Node.js. With a strong foundation in software engineering, I deliver robust, scalable solutions tailored to your needs. Contact me for your next project!",
+    "Varadarajan M is a skilled Full-Stack Developer specializing in high-performance web apps using React, Next.js, and Node.js. View my portfolio and contact me for your next project.",
   keywords: [
     "full stack developer",
     "web developer",
@@ -25,22 +25,26 @@ export const metadata: Metadata = {
     "portfolio",
     "hire software engineer",
     "hire full stack developer",
+    "AI form builder",
+    "real-time chat app",
+    "responsive web design",
+    "MongoDB developer",
   ],
   openGraph: {
     title:
-      "Varadarajan M - Full Stack Engineer | Crafting Delighful User Experiences",
+      "Varadarajan M | Building High-Performance Web Experiences",
     description:
-      "Hey, I'm Varadarajan M, a skilled full-stack software engineer specializing in crafting high-performance applications with React, Next.js, and Node.js. With a strong foundation in software engineering, I deliver robust, scalable solutions tailored to your needs. Contact me for your next project!",
+      "Varadarajan M is a skilled Full-Stack Developer specializing in high-performance web apps using React, Next.js, and Node.js. View my portfolio and contact me for your next project.",
     url: "https://varadarajan-m.vercel.app",
-    // images: ['@/public/avatar.png'], // Replace with the actual image path
+    images: ['/site.png'],
   },
   twitter: {
     card: "summary_large_image",
     title:
-      "Varadarajan M - Full Stack Engineer | Crafting Delighful User Experiences",
+      "Varadarajan M | Building High-Performance Web Experiences",
     description:
-      "Hey, I'm Varadarajan M, a skilled full-stack software engineer specializing in crafting high-performance applications with React, Next.js, and Node.js. With a strong foundation in software engineering, I deliver robust, scalable solutions tailored to your needs. Contact me for your next project!",
-    //  images: ['@/public/avatar.png'], // Replace with the actual image path
+      "Varadarajan M is a skilled Full-Stack Developer specializing in high-performance web apps using React, Next.js, and Node.js. View my portfolio and contact me for your next project.",
+     images: ['/site.png'],
   },
 };
 

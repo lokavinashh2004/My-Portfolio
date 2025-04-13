@@ -12,7 +12,7 @@ const Skill = ({ skill }: {skill:typeof skills[0]}) => {
         src={skill.logo}
         height={100}
         width={100}
-        alt={skill.item}
+        alt={`${skill.item} skill logo`}
       />
       <p className="group-hover:text-purple-500 relative justify-self-end h-1/4 font-bold text-slate-500 text-xl transition-colors duration-500">
         {skill.percentage}

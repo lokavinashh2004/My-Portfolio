@@ -62,7 +62,7 @@ const Showcase = () => {
         <div className="inline-flex lg:hidden mx-auto my-8 max-w-[max(250px,60vw)] max-h-[600px] hero-image">
           <Image
             src={HeroImage}
-            alt="hero-avatar"
+            alt="Varadarajan M's avatar, a Full-Stack Software Engineer"
             className="relative z-10 border-[#1e3773bf] border-2 hover:border-blue-600 border-opacity-75 hover:border-opacity-100 rounded-[20px] w-full transition-all duration-200 select-none hero-avatar rotate-[4deg] hover:rotate-[2deg] hover:scale-95"
             priority
           />
@@ -86,7 +86,7 @@ const Showcase = () => {
         <div className="lg:inline-flex hidden w-[80%] max-h-[500px] hero-image">
           <Image
             src={HeroImage}
-            alt="hero-avatar"
+            alt="Varadarajan M's avatar, a Full-Stack Software Engineer"
             height={300}
             width={300}
             className="relative z-10 border-[#1e3773bf] border-2 hover:border-blue-600 border-opacity-75 hover:border-opacity-100 rounded-[32px] w-full transition-all duration-200 select-none hero-avatar rotate-[7deg] hover:rotate-[2deg] hover:scale-95"
