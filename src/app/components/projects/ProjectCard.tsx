@@ -52,6 +52,8 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
           <div className="flex items-center gap-6 my-4 ml-2 lg:ml-1">
             {project.link && (
               <a
+                target="_blank"
+                rel="noreferrer noopener"
                 href={project.link}
                 className="flex items-center gap-2 text-sm text-white hover:text-cyan-500 transition-colors"
               >
@@ -60,6 +62,8 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
             )}
             {project.repo && (
               <a
+                target="_blank"
+                rel="noreferrer noopener"
                 href={project.repo}
                 className="flex items-center gap-2 text-sm text-white hover:text-cyan-500 transition-colors"
               >

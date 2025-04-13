@@ -3,9 +3,39 @@ import VIMessengerShowcase from "../../../../public/projects/vi-messenger.png";
 import ProductPlatformShowcase from "../../../../public/projects/product-feedback.png";
 import KanbanAppShowcase from '../../../../public/projects/kanban-app.png';
 import InvoiceAppShowcase from '../../../../public/projects/invoice-app.png';
+import FormCraftShowcase from '../../../../public/projects/form-craft.png';
 
 
 const projects: Project[] = [
+    {
+      id: "form-craft",
+      category: "Web App",
+      name: "FormCraft",
+      description: "FormCraft is an AI-powered no-code form builder that allows you to create responsive forms with ease. It features a drag-and-drop interface, file upload option, AI form creation, analytics dashboard and a wide range of customizations.",
+      points: [
+        "AI Form Builder",
+        "Drag-and-Drop Interface",
+        "Wide variety of Form Templates",
+        "Real-Time Analytics Dashboard",
+        "Wide Range of Field Types including File Uploads",
+        "Conditional Logic & Validation",
+        "Multi-Page Forms",
+      ],
+      tags: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Airtable",
+        "Google APIs",
+        "Webhooks",
+        "ShadCN UI",
+        "Gemini AI",
+        "MongoDB",
+      ],
+      link: "https://form-craft-v1-beta.vercel.app",
+      repo: "https://github.com/Varadarajan-M/form-craft",
+      image: FormCraftShowcase,
+    },
     {
       id: "vi-messenger",
       category: "PWA",
