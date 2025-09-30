@@ -21,7 +21,7 @@ const AchievementsSection = () => {
         setLoadedItems(prev => [...prev, index]);
       }, index * 200);
     });
-  }, []);
+  }, []); // Empty dependency array since arrays are static
 
   const achievements = [
     {

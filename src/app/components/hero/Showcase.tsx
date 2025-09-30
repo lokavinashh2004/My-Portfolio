@@ -45,7 +45,7 @@ const Showcase = () => {
       <div className="flex flex-col gap-4 w-full lg:w-1/2 hero-text">
         <div className="flex flex-col gap-2">
           <h2 className="w-full font-extrabold text-3xl sm:text-4xl text-white bg-gradient-to-r from-cyan-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent hover:from-purple-400 hover:via-cyan-500 hover:to-purple-400 transition-all duration-500">
-            Hi I'm a
+            Hi I&apos;m a
           </h2>
         </div>
 
