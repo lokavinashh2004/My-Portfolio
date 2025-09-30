@@ -8,42 +8,44 @@ const SORA = Sora({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title:
-    "Varadarajan M | Building High-Performance Web Experiences",
+    "T.Lok Avinashh | AI & Data Science Student | Machine Learning Engineer",
   description:
-    "Varadarajan M is a skilled Full-Stack Developer specializing in high-performance web apps using React, Next.js, and Node.js. View my portfolio and contact me for your next project.",
+    "T.Lok Avinashh is an innovative AI & Data Science student with expertise in machine learning, deep learning, and full-stack development. Building AI-driven applications and 3D modeling solutions.",
   keywords: [
-    "full stack developer",
-    "web developer",
-    "software engineer",
-    "React developer",
-    "Next.js developer",
-    "Node.js developer",
-    "web development",
-    "application development",
-    "software solutions",
-    "Varadarajan M",
+    "AI student",
+    "data science student",
+    "machine learning engineer",
+    "deep learning",
+    "artificial intelligence",
+    "Python developer",
+    "TensorFlow",
+    "PyTorch",
+    "computer vision",
+    "natural language processing",
+    "T.Lok Avinashh",
     "portfolio",
-    "hire software engineer",
-    "hire full stack developer",
-    "AI form builder",
-    "real-time chat app",
-    "responsive web design",
-    "MongoDB developer",
+    "AI projects",
+    "sign language translation",
+    "ECG analysis",
+    "speech to text",
+    "3D modeling",
+    "Blender",
+    "Google Cloud",
   ],
   openGraph: {
     title:
-      "Varadarajan M | Building High-Performance Web Experiences",
+      "T.Lok Avinashh | AI & Data Science Student | Machine Learning Engineer",
     description:
-      "Varadarajan M is a skilled Full-Stack Developer specializing in high-performance web apps using React, Next.js, and Node.js. View my portfolio and contact me for your next project.",
-    url: "https://varadarajan-m.vercel.app",
+      "T.Lok Avinashh is an innovative AI & Data Science student with expertise in machine learning, deep learning, and full-stack development. Building AI-driven applications and 3D modeling solutions.",
+    url: "https://lokavinashh.vercel.app",
     images: ['/site.png'],
   },
   twitter: {
     card: "summary_large_image",
     title:
-      "Varadarajan M | Building High-Performance Web Experiences",
+      "T.Lok Avinashh | AI & Data Science Student | Machine Learning Engineer",
     description:
-      "Varadarajan M is a skilled Full-Stack Developer specializing in high-performance web apps using React, Next.js, and Node.js. View my portfolio and contact me for your next project.",
+      "T.Lok Avinashh is an innovative AI & Data Science student with expertise in machine learning, deep learning, and full-stack development. Building AI-driven applications and 3D modeling solutions.",
      images: ['/site.png'],
   },
 };

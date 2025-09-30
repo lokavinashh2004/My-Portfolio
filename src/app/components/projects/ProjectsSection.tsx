@@ -24,9 +24,7 @@ const ProjectsSection = () => {
         <SectionHeader meta={meta} />
         <ProjectList />
         <a
-          target="_blank"
-          rel="noreferrer noopener"
-          href="https://github.com/Varadarajan-M"
+          href="/projects"
           className="flex items-center gap-4 my-4 font-semibold text-cyan-300 text-sm sm:text-xl animate-bounce"
         >
           {" "}
