@@ -3,6 +3,7 @@ import VIMessengerShowcase from "../../../../public/projects/vi-messenger.png";
 import ECGAnalysisShowcase from "../../../../public/projects/ecg analysis.png";
 import VirtualPharmacyShowcase from "../../../../public/projects/virtual-pharmacy.png";
 import ShravanShowcase from '../../../../public/projects/shravan.png';
+import ApolloSpectraShowcase from '../../../../public/projects/appolo spectra.png';
 
 
 const projects: Project[] = [
@@ -70,6 +71,22 @@ const projects: Project[] = [
         repo: 'https://github.com/lokavinashh2004', 
         image: ShravanShowcase,
     },
+    {
+        id: 'apollo-spectra',
+        category: 'Process Automation',
+        name: 'Apollo Spectra – Lab Data Converter',
+        description: `Contributed to a production-level automation system at Elimai.ai that streamlines lab data conversion and Excel report generation. This system demonstrates expertise in data processing automation and healthcare technology.`,
+        points: [
+            'Lab data conversion automation',
+            'Excel report generation',
+            'Patient visit number processing',
+            'Data visualization and plotting',
+            'Production-level system integration'
+        ],
+        tags: ['Python', 'Automation', 'Data Processing', 'Excel Integration', 'Healthcare Technology', 'Production Systems'],
+        repo: 'https://github.com/lokavinashh2004',
+        image: ApolloSpectraShowcase,
+    }
   ];
   
 
