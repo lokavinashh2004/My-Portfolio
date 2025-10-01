@@ -4,6 +4,16 @@ import ECGAnalysisShowcase from "../../../../public/projects/ecg analysis.png";
 import VirtualPharmacyShowcase from "../../../../public/projects/virtual-pharmacy.png";
 import ShravanShowcase from '../../../../public/projects/shravan.png';
 import ApolloSpectraShowcase from '../../../../public/projects/appolo spectra.png';
+import SpamSMSShowcase from '../../../../public/projects/vi-messenger.png';
+import MedicalTranscriptionShowcase from '../../../../public/projects/virtual-pharmacy.png';
+import MedPDFShowcase from '../../../../public/projects/ecg analysis.png';
+import HandwrittenTextShowcase from '../../../../public/projects/shravan.png';
+import YOLOv7Showcase from '../../../../public/projects/appolo spectra.png';
+import YOLOv5Showcase from '../../../../public/projects/vi-messenger.png';
+import GDGInterviewShowcase from '../../../../public/projects/virtual-pharmacy.png';
+import MedAIShowcase from '../../../../public/projects/ecg analysis.png';
+import LearningGuideShowcase from '../../../../public/projects/shravan.png';
+import GDGExamShowcase from '../../../../public/projects/appolo spectra.png';
 
 
 const projects: Project[] = [
@@ -101,7 +111,7 @@ const projects: Project[] = [
         ],
         tags: ['Python', 'Machine Learning', 'Natural Language Processing', 'Text Classification', 'Web Development'],
         repo: 'https://github.com/lokavinashh2004/Spam-SMS-Detection',
-        image: VIMessengerShowcase,
+        image: SpamSMSShowcase,
     },
     {
         id: 'medical-transcription',
@@ -117,7 +127,7 @@ const projects: Project[] = [
         ],
         tags: ['HTML', 'Medical AI', 'Healthcare Technology', 'Transcription', 'Web Development'],
         repo: 'https://github.com/lokavinashh2004/Medical-transcription-demo-project',
-        image: VIMessengerShowcase,
+        image: MedicalTranscriptionShowcase,
     },
     {
         id: 'medpdf-summarizer',
@@ -133,7 +143,7 @@ const projects: Project[] = [
         ],
         tags: ['HTML', 'Natural Language Processing', 'Medical AI', 'PDF Processing', 'Healthcare Technology'],
         repo: 'https://github.com/lokavinashh2004/Medical-pdf-intern-selection-project-2',
-        image: VIMessengerShowcase,
+        image: MedPDFShowcase,
     },
     {
         id: 'handwritten-text-extraction',
@@ -149,7 +159,7 @@ const projects: Project[] = [
         ],
         tags: ['Python', 'Flask', 'LLaMA Vision', 'Computer Vision', 'OCR', 'Web Development'],
         repo: 'https://github.com/lokavinashh2004/Handwritten-to-text',
-        image: VIMessengerShowcase,
+        image: HandwrittenTextShowcase,
     },
     {
         id: 'object-detection-yolov7',
@@ -165,7 +175,7 @@ const projects: Project[] = [
         ],
         tags: ['Python', 'YOLOv7', 'Deep Learning', 'Computer Vision', 'Object Detection', 'Machine Learning'],
         repo: 'https://github.com/lokavinashh2004/Object-Detection-with-YOLOv7',
-        image: VIMessengerShowcase,
+        image: YOLOv7Showcase,
     },
     {
         id: 'object-detection-yolov5',
@@ -181,7 +191,7 @@ const projects: Project[] = [
         ],
         tags: ['HTML', 'YOLOv5', 'Deep Learning', 'Computer Vision', 'Object Detection', 'Machine Learning'],
         repo: 'https://github.com/lokavinashh2004/Object-Detection-using-YOLOv5',
-        image: VIMessengerShowcase,
+        image: YOLOv5Showcase,
     },
     {
         id: 'gdg-interview-portal',
@@ -197,7 +207,7 @@ const projects: Project[] = [
         ],
         tags: ['JavaScript', 'Web Development', 'Interview Management', 'Student Portal', 'Evaluation System'],
         repo: 'https://github.com/lokavinashh2004/Gdg-Interview',
-        image: VIMessengerShowcase,
+        image: GDGInterviewShowcase,
     },
     {
         id: 'medai-ecg-analyzer',
@@ -213,7 +223,7 @@ const projects: Project[] = [
         ],
         tags: ['HTML', 'AI', 'Medical AI', 'ECG Analysis', 'Gemini API', 'Healthcare Technology'],
         repo: 'https://github.com/lokavinashh2004/medaii',
-        image: VIMessengerShowcase,
+        image: MedAIShowcase,
     },
     {
         id: 'learning-guide-platform',
@@ -229,7 +239,7 @@ const projects: Project[] = [
         ],
         tags: ['HTML', 'AI', 'Education Technology', 'Learning Platform', 'Career Development', 'Personalization'],
         repo: 'https://github.com/lokavinashh2004/i-will-guide-you',
-        image: VIMessengerShowcase,
+        image: LearningGuideShowcase,
     },
     {
         id: 'gdg-online-exam',
@@ -245,7 +255,7 @@ const projects: Project[] = [
         ],
         tags: ['JavaScript', 'Web Development', 'Online Education', 'Exam Management', 'Student Portal', 'Analytics'],
         repo: 'https://github.com/lokavinashh2004/gdg-online-exam',
-        image: VIMessengerShowcase,
+        image: GDGExamShowcase,
     }
   ];
   
