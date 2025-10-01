@@ -1,9 +1,7 @@
 import { Project } from "@/types/project";
 import VIMessengerShowcase from "../../../../public/projects/vi-messenger.png";
-import ProductPlatformShowcase from "../../../../public/projects/product-feedback.png";
-import KanbanAppShowcase from '../../../../public/projects/kanban-app.png';
-import InvoiceAppShowcase from '../../../../public/projects/invoice-app.png';
-import FormCraftShowcase from '../../../../public/projects/form-craft.png';
+import ECGAnalysisShowcase from "../../../../public/projects/ecg analysis.png";
+import VirtualPharmacyShowcase from "../../../../public/projects/virtual-pharmacy.png";
 import ShravanShowcase from '../../../../public/projects/shravan.png';
 
 
@@ -30,7 +28,7 @@ const projects: Project[] = [
       ],
       link: "https://virtual-pharmacy.onrender.com/",
       repo: "https://github.com/lokavinashh2004",
-      image: VIMessengerShowcase,
+      image: VirtualPharmacyShowcase,
     },
     {
       id: "ecg-analysis",
@@ -54,7 +52,7 @@ const projects: Project[] = [
         "Healthcare",
       ],
       repo: "https://github.com/lokavinashh2004",
-      image: ProductPlatformShowcase,
+      image: ECGAnalysisShowcase,
     },
     {
         id: 'shravan-app',
@@ -72,22 +70,6 @@ const projects: Project[] = [
         repo: 'https://github.com/lokavinashh2004', 
         image: ShravanShowcase,
     },
-    {
-        id: 'apollo-spectra',
-        category: 'Process Automation',
-        name: 'Apollo Spectra – Process Automation',
-        description: `Contributed to a production-level automation system at Elimai.ai that streamlines plotting values into Excel, reducing manual effort and increasing efficiency. This system demonstrates expertise in automation and data processing.`,
-        points: [
-            'Production-level automation system',
-            'Excel data processing automation',
-            'Manual effort reduction',
-            'Efficiency improvement',
-            'Data visualization and plotting'
-        ],
-        tags: ['Python', 'Automation', 'Data Processing', 'Excel Integration', 'Process Optimization', 'Production Systems'],
-        repo: 'https://github.com/lokavinashh2004',
-        image: InvoiceAppShowcase,
-    }
   ];
   
 
