@@ -86,6 +86,166 @@ const projects: Project[] = [
         tags: ['Python', 'Automation', 'Data Processing', 'Excel Integration', 'Healthcare Technology', 'Production Systems'],
         repo: 'https://github.com/lokavinashh2004',
         image: ApolloSpectraShowcase,
+    },
+    {
+        id: 'spam-sms-detection',
+        category: 'Machine Learning',
+        name: 'Spam SMS Detection',
+        description: `A machine learning project designed to detect spam messages (SMS) using a trained ML model. Users can input any text message and get instant spam detection results with high accuracy.`,
+        points: [
+            'SMS spam detection using ML model',
+            'Text preprocessing and feature extraction',
+            'High accuracy spam classification',
+            'User-friendly web interface',
+            'Real-time message analysis'
+        ],
+        tags: ['Python', 'Machine Learning', 'Natural Language Processing', 'Text Classification', 'Web Development'],
+        repo: 'https://github.com/lokavinashh2004/Spam-SMS-Detection',
+        image: VIMessengerShowcase,
+    },
+    {
+        id: 'medical-transcription',
+        category: 'AI Healthcare',
+        name: 'Medical Transcription Demo',
+        description: `A demo project developed for intern interview showcasing medical transcription capabilities. Demonstrates expertise in healthcare technology and AI applications.`,
+        points: [
+            'Medical transcription capabilities',
+            'Healthcare technology demonstration',
+            'AI-powered transcription',
+            'Interview project showcase',
+            'Medical data processing'
+        ],
+        tags: ['HTML', 'Medical AI', 'Healthcare Technology', 'Transcription', 'Web Development'],
+        repo: 'https://github.com/lokavinashh2004/Medical-transcription-demo-project',
+        image: VIMessengerShowcase,
+    },
+    {
+        id: 'medpdf-summarizer',
+        category: 'AI Healthcare',
+        name: 'MedPDF – Medical PDF Summarizer',
+        description: `An intelligent platform designed to extract and summarize key information from medical PDF documents using advanced Natural Language Processing techniques.`,
+        points: [
+            'Medical PDF document analysis',
+            'AI-powered summarization',
+            'Key information extraction',
+            'Natural Language Processing',
+            'Healthcare document processing'
+        ],
+        tags: ['HTML', 'Natural Language Processing', 'Medical AI', 'PDF Processing', 'Healthcare Technology'],
+        repo: 'https://github.com/lokavinashh2004/Medical-pdf-intern-selection-project-2',
+        image: VIMessengerShowcase,
+    },
+    {
+        id: 'handwritten-text-extraction',
+        category: 'Computer Vision',
+        name: 'Handwritten Text Extraction',
+        description: `A Flask-based web application that allows users to upload images containing handwritten text and automatically extracts the text using LLaMA Vision Model.`,
+        points: [
+            'Handwritten text recognition',
+            'LLaMA Vision Model integration',
+            'Image processing and OCR',
+            'Flask web application',
+            'Computer vision technology'
+        ],
+        tags: ['Python', 'Flask', 'LLaMA Vision', 'Computer Vision', 'OCR', 'Web Development'],
+        repo: 'https://github.com/lokavinashh2004/Handwritten-to-text',
+        image: VIMessengerShowcase,
+    },
+    {
+        id: 'object-detection-yolov7',
+        category: 'Computer Vision',
+        name: 'Object Detection with YOLOv7',
+        description: `A high-performance object detection system using the YOLOv7 architecture. Trained on a custom dataset for real-time and accurate detection across multiple object classes.`,
+        points: [
+            'YOLOv7 architecture implementation',
+            'Custom dataset training',
+            'Real-time object detection',
+            'High accuracy detection',
+            'Computer vision applications'
+        ],
+        tags: ['Python', 'YOLOv7', 'Deep Learning', 'Computer Vision', 'Object Detection', 'Machine Learning'],
+        repo: 'https://github.com/lokavinashh2004/Object-Detection-with-YOLOv7',
+        image: VIMessengerShowcase,
+    },
+    {
+        id: 'object-detection-yolov5',
+        category: 'Computer Vision',
+        name: 'Object Detection using YOLOv5',
+        description: `A deep learning project for real-time object detection using the YOLOv5 architecture. Trained on a custom dataset and fine-tuned for accurate detection across various object classes.`,
+        points: [
+            'YOLOv5 architecture implementation',
+            'Custom dataset training',
+            'Real-time object detection',
+            'Fine-tuned model optimization',
+            'Computer vision applications'
+        ],
+        tags: ['HTML', 'YOLOv5', 'Deep Learning', 'Computer Vision', 'Object Detection', 'Machine Learning'],
+        repo: 'https://github.com/lokavinashh2004/Object-Detection-using-YOLOv5',
+        image: VIMessengerShowcase,
+    },
+    {
+        id: 'gdg-interview-portal',
+        category: 'Web Development',
+        name: 'GDG Interview Portal',
+        description: `A dedicated platform to conduct interviews for GDG Ambassador selection. Streamlines the interview process with student registration, question management, evaluator access, and comprehensive evaluation system.`,
+        points: [
+            'Interview management system',
+            'Student registration and management',
+            'Question management system',
+            'Evaluator access control',
+            'Comprehensive evaluation system'
+        ],
+        tags: ['JavaScript', 'Web Development', 'Interview Management', 'Student Portal', 'Evaluation System'],
+        repo: 'https://github.com/lokavinashh2004/Gdg-Interview',
+        image: VIMessengerShowcase,
+    },
+    {
+        id: 'medai-ecg-analyzer',
+        category: 'AI Healthcare',
+        name: 'MedAI: ECG Report Analyzer',
+        description: `An AI-powered medical tool that analyzes ECG reports and compares past and present data using the Gemini API. Provides smart health insights, anomaly detection, and comprehensive medical analysis.`,
+        points: [
+            'ECG report analysis using Gemini API',
+            'Past and present data comparison',
+            'Smart health insights generation',
+            'Anomaly detection capabilities',
+            'Comprehensive medical analysis'
+        ],
+        tags: ['HTML', 'AI', 'Medical AI', 'ECG Analysis', 'Gemini API', 'Healthcare Technology'],
+        repo: 'https://github.com/lokavinashh2004/medaii',
+        image: VIMessengerShowcase,
+    },
+    {
+        id: 'learning-guide-platform',
+        category: 'AI Education',
+        name: 'I Will Guide You',
+        description: `An intelligent platform designed to help users discover personalized learning paths for mastering new skills or advancing their careers. Leverages AI to analyze resources and provide customized learning recommendations.`,
+        points: [
+            'Personalized learning path discovery',
+            'AI-powered resource analysis',
+            'Career advancement guidance',
+            'Skill mastery recommendations',
+            'Intelligent learning platform'
+        ],
+        tags: ['HTML', 'AI', 'Education Technology', 'Learning Platform', 'Career Development', 'Personalization'],
+        repo: 'https://github.com/lokavinashh2004/i-will-guide-you',
+        image: VIMessengerShowcase,
+    },
+    {
+        id: 'gdg-online-exam',
+        category: 'Web Development',
+        name: 'GDG Online Exam Portal',
+        description: `A web-based platform designed for conducting online exams efficiently. Provides a user-friendly interface for students to take tests and allows administrators to manage quizzes, questions, and student performance.`,
+        points: [
+            'Online exam management system',
+            'Student test interface',
+            'Administrator dashboard',
+            'Quiz and question management',
+            'Performance tracking and analytics'
+        ],
+        tags: ['JavaScript', 'Web Development', 'Online Education', 'Exam Management', 'Student Portal', 'Analytics'],
+        repo: 'https://github.com/lokavinashh2004/gdg-online-exam',
+        image: VIMessengerShowcase,
     }
   ];
   
