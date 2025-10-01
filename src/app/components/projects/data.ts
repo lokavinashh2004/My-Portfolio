@@ -4,16 +4,16 @@ import ECGAnalysisShowcase from "../../../../public/projects/ecg analysis.png";
 import VirtualPharmacyShowcase from "../../../../public/projects/virtual-pharmacy.png";
 import ShravanShowcase from '../../../../public/projects/shravan.png';
 import ApolloSpectraShowcase from '../../../../public/projects/appolo spectra.png';
-import SpamSMSShowcase from '../../../../public/projects/vi-messenger.png';
-import MedicalTranscriptionShowcase from '../../../../public/projects/virtual-pharmacy.png';
+import SpamSMSShowcase from '../../../../public/projects/spam-sms-detection.jpg';
+import MedicalTranscriptionShowcase from '../../../../public/projects/medical-transcription\'.png';
 import MedPDFShowcase from '../../../../public/projects/ecg analysis.png';
 import HandwrittenTextShowcase from '../../../../public/projects/shravan.png';
-import YOLOv7Showcase from '../../../../public/projects/appolo spectra.png';
-import YOLOv5Showcase from '../../../../public/projects/vi-messenger.png';
-import GDGInterviewShowcase from '../../../../public/projects/virtual-pharmacy.png';
+import YOLOv7Showcase from '../../../../public/projects/yolo.jpg';
+import YOLOv5Showcase from '../../../../public/projects/yolo.jpg';
+import GDGInterviewShowcase from '../../../../public/projects/gdg interview.png';
 import MedAIShowcase from '../../../../public/projects/ecg analysis.png';
 import LearningGuideShowcase from '../../../../public/projects/shravan.png';
-import GDGExamShowcase from '../../../../public/projects/appolo spectra.png';
+import GDGExamShowcase from '../../../../public/projects/gdg-online- exam portal.png';
 
 
 const projects: Project[] = [
