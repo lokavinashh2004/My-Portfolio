@@ -7,7 +7,7 @@ import ApolloSpectraShowcase from '../../../../public/projects/appolo spectra.pn
 import SpamSMSShowcase from '../../../../public/projects/spam-sms-detection.jpg';
 import MedicalTranscriptionShowcase from '../../../../public/projects/medical-transcription\'.png';
 import MedPDFShowcase from '../../../../public/projects/med-pdf.png';
-import HandwrittenTextShowcase from '../../../../public/projects/shravan.png';
+import HandwrittenTextShowcase from '../../../../public/projects/handwritten-text-extractor.webp';
 import YOLOv7Showcase from '../../../../public/projects/yolo.jpg';
 import YOLOv5Showcase from '../../../../public/projects/yolo.jpg';
 import GDGInterviewShowcase from '../../../../public/projects/gdg interview.png';
