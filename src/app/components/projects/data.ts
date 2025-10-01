@@ -4,6 +4,7 @@ import ProductPlatformShowcase from "../../../../public/projects/product-feedbac
 import KanbanAppShowcase from '../../../../public/projects/kanban-app.png';
 import InvoiceAppShowcase from '../../../../public/projects/invoice-app.png';
 import FormCraftShowcase from '../../../../public/projects/form-craft.png';
+import ShravanShowcase from '../../../../public/projects/shravan.png';
 
 
 const projects: Project[] = [
@@ -69,7 +70,7 @@ const projects: Project[] = [
         ],
         tags: ['Python', 'Speech Processing', 'Natural Language Processing', 'Machine Learning', 'Web Development', 'Analytics'],
         repo: 'https://github.com/lokavinashh2004', 
-        image: KanbanAppShowcase,
+        image: ShravanShowcase,
     },
     {
         id: 'apollo-spectra',
